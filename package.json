@@ -1,0 +1,19 @@
+{
+  "name": "bristlegrass",
+  "version": "1.0.0",
+  "description": "This is a collection of front-end tool methods",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ufofacker/bristlegrass.git"
+  },
+  "author": "ufofacker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ufofacker/bristlegrass/issues"
+  },
+  "homepage": "https://github.com/ufofacker/bristlegrass#readme"
+}

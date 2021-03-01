@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let data = [];
+        for (let index = 0; index < 10; index++) {
+            data.push(parseInt(parseFloat(Math.random().toFixed(2)) * 100));
+        }
+        let arr = Array.from(data);
+        data = [...data, ...arr];
+        console.log(data);
+        let startTimestamp = new Date().getTime();
+        function removeDistinct(data) {
+            let obj = {};
+            let resArray = [];
+            for(let item of data){
+                if(!obj[item]){
+                    resArray.push(item);
+                    obj[item] = item;
+                }
+            }
+            return resArray;
+        }
+        console.log(removeDistinct(data));
+        let endTimestamp = new Date().getTime();
+        console.log("去重程序的执行时间是：", (endTimestamp - startTimestamp) + "毫秒");
+    </script>
+</body>
+
+</html>
