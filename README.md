@@ -13,7 +13,7 @@ const bt = require('bristlegrass')
 bt._number.getRandomNum(2)
 ```
 
-*说明：具体方法的说明信息可以参考 src/modules下的文件* 
+*说明：具体方法的说明信息可以参考 src/modules下的文件 * 
 
 ## _number 数字类型数据算法集合
 ``` getRandomNum ``` 
