@@ -101,7 +101,7 @@ module.exports = {
             newList[i] = formatFn(originList[i])
             if (originList[i].children) {
                 newList[i]['children'] = []
-                createTreeByClone(originList[i].children, newList[i]['children'], formatFn)
+                this.createTreeByClone(originList[i].children, newList[i]['children'], formatFn)
             }
         }
     }
