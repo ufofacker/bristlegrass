@@ -48,6 +48,9 @@ bt._number.getRandomNum(2)
 ``` convertTreeToFlatData ``` 
 > 多叉树转换成对象数组
 
+``` createTreeByClone ``` 
+> 从多叉树创建另一个多叉树数据
+
 ## _dom html文档操作相关方法集合
 ``` getParentsByDeep ``` 
 > 找元素的第n级父元素

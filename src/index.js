@@ -1,14 +1,14 @@
-const _number = require('zhe-tool/src/modules/_number')
-const _string = require('zhe-tool/src/modules/_string')
-const _array = require('zhe-tool/src/modules/_array')
-const _object = require('zhe-tool/src/modules/_object')
-const _function = require('zhe-tool/src/modules/_function')
-const _tree = require('zhe-tool/src/modules/_tree')
-const _dom = require('zhe-tool/src/modules/_dom')
-const _sort = require('zhe-tool/src/modules/_sort')
-const _regexp = require('zhe-tool/src/modules/_regexp')
-const _global = require('zhe-tool/src/modules/_global')
-module.exports = { 
+const _number = require('./modules/_number')
+const _string = require('./modules/_string')
+const _array = require('./modules/_array')
+const _object = require('./modules/_object')
+const _function = require('./modules/_function')
+const _tree = require('./modules/_tree')
+const _dom = require('./modules/_dom')
+const _sort = require('./modules/_sort')
+const _regexp = require('./modules/_regexp')
+const _global = require('./modules/_global')
+module.exports = {
     _number,//数字类型数据算法集合
     _string,//字符串类型数据算法集合
     _array,//数组操作算法集合
